@@ -13,8 +13,7 @@ class StringsTest {
 
         assertAll(
                 () -> assertEquals("question", res),
-                () -> assertEquals("IDK", res2),
-                () -> assertEquals("e", res2)
+                () -> assertEquals("IDK", res2)
         );
     }
 }
